@@ -1,0 +1,535 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aleek Resturant  </title>
+
+      <link rel="stylesheet" href="themes/mytheme.css" />
+	<link rel="stylesheet" href="themes/style.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+</head>
+
+<body>
+<!-- start new page with theme (home page) -->
+
+<section data-role="page" id="home"   data-theme="d"> 
+   <header data-role="header">
+  
+   <img src="burger.jpg" class="centerA"> 
+
+   
+  
+</header>
+
+   <div data-role="main" class="ui-content">
+   
+   
+
+    
+	  <div style="text-align:center">
+	  
+      </div>
+	  
+	  <table style="width: 100%; border: 0px; text-align:center"> <!-- center the page --> 
+	<tr>
+		<td><a href="#menu"> <img src="icon1.jpg" class="img-thumbnail" /></a></td>
+		<td><a href="#location"> <img src="map.jpg" class="img-thumbnail"/></a></</td>
+	</tr>
+	<tr>
+		<td><a href="#feedback">      <img src="feedback1.jpg" class="img-thumbnail"/></a></td>
+		<td><a href="#developer"> <img src="developer1.jpg" class="img-thumbnail" /></a></td>
+	</tr>
+</table>
+<div style="text-align:center"> <!-- center the text --> 
+
+      <a href="tel:+0452188311" >call us</a>
+       
+</div>
+
+</div>
+
+
+<footer data-role="footer">
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+</footer>
+</section>
+
+<section data-role="page" id="menu"   data-theme="d">
+   <header data-role="header">
+   <img src="menu.jpg" class="centerA">
+   
+   <!-- /navbar -->
+ 
+<div data-role="navbar" data-iconpos="left">
+    <ul>
+        <li><a href="#home"  data-icon="home">Home </a></li>
+       <li><a href="#location"  data-icon="grid ">Location </a></li>
+         <li><a href="#feedback"  data-icon="grid ">Feedback </a></li>
+           <li><a href="#developer"   data-icon ="grid">Developer </a></li>
+          <li><a href="tel:+0452188311" data-icon="grid">call us</a></li>
+    </ul>
+</div><!-- /navbar -->
+ 
+
+   
+  
+</header>
+
+   <div data-role="main" class="ui-content">
+
+    
+	  <div style="text-align:center">
+	  
+    
+	  
+<!--list pages and linked them with dialog -->
+ 
+<ul data-role="listview" data-inset="true" data-divider-theme="a">
+    <li data-role="list-divider"> Food</li>
+    <li><a href="#dialog1">Chicken Burger</a></li>
+     
+    
+    <li><a href="#dialogl2">Fish Burger</a></li>
+    <li data-role="list-divider">Drink</li>
+  
+    <li><a href="#dialogl3">Apple juice </a></li>
+</ul>
+ 
+	     </div>
+    
+       
+</div>
+
+
+
+<footer data-role="footer">
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+</footer>
+</section>
+
+<section data-role="page" id="location"   data-theme="d">    <!-- this page is used for the map --> 
+   <header data-role="header">
+   <img src="food11.jpg" class="centerA">
+   
+   <!-- /navbar -->
+ 
+<div data-role="navbar" data-iconpos="left">     <!-- vavbar -->
+    <ul>
+        <li><a href="#home"  data-icon="home">Home </a></li>
+        <li><a href="#menu"   data-icon ="grid">Menue </a></li>
+        <li><a href="#feedback" data-icon="grid">Feedback</a> </li>
+         <li><a href="#developer"  data-icon="grid ">Developers </a></li>
+          <li><a href="tel:+0452188311" data-icon="grid">call us</a></li>
+    </ul>
+</div>
+
+
+  
+</header>
+
+   <div data-role="main" class="ui-content">
+   
+    
+    
+	  <div style="text-align:center">
+	  
+ </div>
+<h1> Get dicrection </h1>
+
+<a href="https://www.google.com.au/maps/place/Burwood+East+VIC+3151/@-37.8537209,145.1503333,15z/data=!3m1!4b1!4m2!3m1!1s0x6ad63f79de7310b7:0x5045675218cdaa0" data-role="button">Find us on google Maps </a> 
+ 
+	 
+    
+       
+</div>
+
+</div>
+
+<footer data-role="footer">
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+</footer>
+</section>
+
+<!-- new page for feedback--> 
+
+<section data-role="page" id="feedback"   data-theme="d">
+   <header data-role="header">
+   <img src="feedback.jpg" class="centerA">   <!-- center-->
+   
+   <!-- /navbar -->
+ 
+<div data-role="navbar" data-iconpos="left">
+    <ul>
+        <li><a href="#home"  data-icon="home">Home </a></li>
+        <li><a href="#menu"   data-icon ="grid">Menu </a></li>
+        <li><a href="#location" data-icon="grid">Location </a> </li>
+         <li><a href="#developer"  data-icon="grid ">Developers </a></li>
+          <li><a href="tel:+0452188311" data-icon="grid">call us</a></li>
+    </ul>
+</div>
+
+
+  
+</header>
+   
+    
+    
+	  <div style="text-align:center">
+	  
+
+
+
+ <div data-role="main" class="ui-content">
+
+<div class="ui-field-contain">
+                <label for="gk-816ls90">Customer Name:</label>
+                  <input name id="gk-816ls90" type="text" color:red;">
+           
+            <!-- To enter customer's information --> 
+            <div class="ui-field-contain">
+                <label for="gk-816ls90">Customer Information:</label>
+                  <input name id="gk-816ls90" type="text">
+           
+            <!-- To enter customer's feedback -->
+            <div class="ui-field-contain">
+                  <label for="gk-816rnX3">Feedback:</label>
+                  <textarea id="gk-816rnX3" name></textarea>
+              </div>
+              </div> 
+              
+   
+
+<a href="#dialog" data-role="button"> Submit </a>
+
+
+ 
+
+       
+
+
+<footer data-role="footer">
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+</footer>
+</section>
+
+<section data-role="page" id="food"   data-theme="d">
+   <header data-role="header">
+   <img src="menu.jpg" class="centerA">
+   
+   <!-- /navbar -->
+ 
+<div data-role="navbar" data-iconpos="left">
+    <ul>
+        <li><a href="#home"  data-icon="home">Home </a></li>
+        <li><a href="#location"   data-icon ="grid">Location </a></li>
+        <li><a href="#menue" data-icon="grid">Menu</a> </li>
+         <li><a href="#"  data-icon="grid ">Developers </a></li>
+          <li><a href="tel:+0452188311" data-icon="grid">CALL US/</a></li>
+    </ul>
+</div>
+
+
+  
+</header>              
+
+   <div data-role="main" class="ui-content">
+   
+    <h1> Developer information </h1>
+    <h2> Jaffar Mousa Almousa </h2>
+    <h2> Almousajaffar@gmail.com</h2>
+    <h2> 3B Marryborough.Kingsbury.Melbourne 3083</h3>
+    <h3> please contact for business </h3>
+                           <!--- conter the text--> 
+    
+	 
+
+
+ <h1> Developer information </h1>
+    <h2> Jaffar Mousa Almousa </h2>
+    <h2> Almousajaffar@gmail.com</h2>
+    <h2> 3B Marryborough.Kingsbury.Melbourne 3083</h3>
+    <h3> please contact for business </h3>
+    
+
+
+ 
+
+    </div>    
+
+
+<footer data-role="footer">
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+</footer>
+</section>
+
+
+<section data-role="page" id="developer"   data-theme="d">  <!-- start new page with theme d -->
+   <header data-role="header">
+   <img src="developer.jpg" class="centerA">
+  
+   
+   <!--- navbar --->
+ <div data-role="navbar" data-iconpos="left">
+<div data-role="navbar" data-iconpos="left">    
+
+    <ul>
+        <li><a href="#home"  data-icon="home">Home </a></li>
+        <li><a href="#menu"   data-icon ="grid">Menu </a></li>
+        <li><a href="#location" data-icon="grid">Location</a> </li>
+         <li><a href="#feedback"  data-icon="grid ">feedback </a></li>
+          <li><a href="tel:+0452188311" data-icon="grid">call us</a></li>
+    </ul>
+</div>
+
+
+  
+</header>
+
+   <div data-role="main" class="ui-content">
+   
+    
+    
+	  
+	  
+
+
+  <h1> Developer information  </h1>
+    <h2> Jaffar Mousa Almousa </h2>
+    <h2> Almousajaffar@gmail.com</h2>
+    <h2> 3B Marryborough.Kingsbury.Melbourne 3083</h3>
+    <h3> please contact for business </h3>
+    
+
+
+ 
+
+       
+
+
+<footer data-role="footer">
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+</footer>
+</section>
+
+
+<section  id="dialog" data-role="dialog" >
+
+
+
+   <header data-role="header">
+   
+   <h1> Feedback </h1>
+ 
+</header>
+
+ 
+
+
+
+ <div data-role="main" class="ui-content">
+ 
+<i> We appreciate your time 
+Hope to see you agine </i>
+
+<a href="#home" data-role="button" data-rel="exit" data-theme="a">exit </a>
+
+
+ 
+
+</div>       
+
+
+
+</br>
+
+<footer data-role="footer"  data-theme="d" data-position="fixed">
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+</footer>
+</section>
+
+<!-- dialogl for the food with three buttons --> 
+<section  id="dialog1" data-role="dialog" >
+
+
+   <header data-role="header">
+   
+   <h1> Menu-Chicken Burger </h1> 
+   <br>
+   
+
+ 
+</header>
+
+ 
+
+ <div data-role="main" class="ui-content">
+ 
+<a href="#menu"> <img src="chickenburger.jpg" class="img-thumbnail" /></a>
+
+
+<br>
+
+
+</br>
+<i> Our TENDERGRILL® Chicken Sandwich is spicy,comes with tomato and garlic sauce 
+
+Served with a small side of chips  hot, peri peri sauce and onion slice
+
+
+
+<br/>
+Price $15     
+</i>
+</div> 
+
+
+<a href="#" data-role="button" data-rel="" data-theme="a">Buy it </a>
+
+<a href="#home" data-role="button" data-rel="back" data-theme="a">Menu </a>
+
+<a href="#home" data-role="button" data-rel="exit" data-theme="a">Home </a>
+
+
+</br>
+
+<footer data-role="footer"  data-theme="d" data-position="fixed"> 
+
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+</footer>
+</section>
+
+
+
+
+
+<section  id="dialogl2" data-role="dialog" >
+
+
+
+   <header data-role="header">
+   
+   <h1> Menu-Fish </h1> 
+   <br>
+   
+
+ 
+</header>
+
+ 
+
+
+
+<div data-role="content"> 
+<a href="#menu"> <img src="fish.jpg" class="img-thumbnail" /></a> <br>
+
+
+
+<br/>
+<i> Our fish Fish and chips with mushy peas
+
+Served with a small side of chips  hot.
+
+<br>
+
+<br/>
+Price $10     
+</i>
+
+
+
+<a href="#" data-role="button"  data-rel=" " data-theme="d">Buy it </a>
+
+<a href="#home" data-role="button"   data-rel="back" data-theme="d">Menu </a>
+
+<a href="#home" data-role="button" data-rel="exit" data-theme="d">Home </a>
+
+
+ 
+
+
+
+
+
+
+
+<footer data-role="footer"  data-theme="d" data-position="fixed">
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+
+
+</footer>
+</section>
+
+
+
+
+<section  id="dialogl3" data-role="dialog" >
+
+
+
+   <header data-role="header">
+   
+   <h1> Menu-Apple juice  </h1> 
+  
+   
+
+ 
+</header>
+
+ 
+
+
+<div data-role="main" class="ui-content">
+<!-- dialogl-->    
+<a href="#menu"> <img src="apple.jpg" class="img-thumbnail" /></a> <br>
+
+</div>
+
+
+<i> Enjoy the fresh Apple juice while haveing your meal 
+
+<br>
+
+
+Price $5     
+</i>
+
+
+
+<a href="#" data-role="button"  data-rel=" " data-theme="d">Buy it </a>
+
+<a href="#home" data-role="button"   data-rel="back" data-theme="d">Menu </a>
+
+<a href="#home" data-role="button" data-rel="exit" data-theme="d">Home </a>
+
+
+ 
+
+
+
+
+
+</br>
+
+<footer data-role="footer"  data-theme="d" data-position="fixed">
+<h3> &copy; Jaffar Almousa 2015 </h3>
+
+
+
+</footer>
+</section>
+
+</body>
+</html>

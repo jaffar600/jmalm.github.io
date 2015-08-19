@@ -1,0 +1,73 @@
+.h1 {
+	text-align:center;
+	color:black;
+	
+	
+
+	
+	
+	
+	
+	
+}
+.centerA{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+	
+@media screen and (min-width:980px){
+	.ui-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:947px; 
+    text-align:center;
+	}
+	header,footer {
+    width:979px;    
+	}	
+	
+}
+@media screen and (max-width:460px){
+	.img-thumbnail{
+		max-width:100px;		
+	}
+
+}
+.img-thumbnail{
+	display:inline-block;
+	max-width:100%;
+	height:auto;
+	padding:4px;
+	line-height:1.42857143;
+	background-color:#fff; // background of images 
+	border:1px solid #000000; // border of images
+	border-radius:4px;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out
+}
+.img-thumbnail, .thumbnail {
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+    box-shadow: 0 1px 2px rgba(0,0,0,.075);
+}
+header,footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ui-content{
+	background-color:#ffffff;
+	padding-top: 0px;
+
+
+}
+ <script>
+$(function() {
+$( "#dialog" ).dialog();
+});
+</script>
